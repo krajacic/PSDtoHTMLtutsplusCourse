@@ -1,0 +1,15 @@
+@font-face {
+    font-family: colossalis;
+    src:url(Colossalis%20Bold.ttf)
+}
+
+body{
+    border-top: 8px solid #ec7e08; /* orange line on the top of page */ 
+    color: #888;
+    font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
+}
+
+h1, h2, h3, h4 ,h5 ,h6 {
+    color: #ec8e08;
+    font-family: colossalis, Impact, sans-serif; /* Impact and sans-serif are replacements for colossalis */
+}
