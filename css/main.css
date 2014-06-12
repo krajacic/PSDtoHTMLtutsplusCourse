@@ -71,7 +71,25 @@ h1, h2, h3, h4 ,h5 ,h6 {
     color: #a1a1a1; /* color of the social icons to grey */ 
     font-size: 2.5em; /* how big are icons */
     text-decoration: none; /* no underline on social icons */
-    
+    transition: color .5s; /* transition (animate to color) "what (color)" "per time (.5s)" */
+    -webkit-transition: color .5s;
+    -moz-transition: color .5s; /* for mozilla users */ 
+}
+
+.social a:hover i.fa-facebook-square { /* it will makes social icons to their colors */
+    color: #3B5998;
+}
+
+.social a:hover i.fa-twitter-square {
+    color: #4099ff;
+}
+
+.social a:hover i.fa-google-plus-square {
+    color: #d34836;
+}
+
+.social a:hover i.fa-youtube-square {
+    color: #ff3333;
 }
 
 /******************************** NAVIGATION ************************************/
