@@ -19,3 +19,77 @@ h1, h2, h3, h4 ,h5 ,h6 {
     color: #ec8e08;
     font-family: colossalis, Impact, sans-serif; /* Impact and sans-serif are replacements for colossalis */
 }
+
+/******************************** LOGO ************************************/
+
+.logo {
+    float: left; /* logo float to the left */
+    max-width: 50%;
+}
+
+.logo h2 /* class logo,only h2 */ {
+    display: inline-block;
+    font-size: 3em;
+    margin-top: 0px;
+    padding-right: 5px;
+    
+}
+
+.logo h3 {
+    border-left: 3px solid #a1a1a1;
+    display: inline-block;
+    color: #a1a1a1;
+    font: 1.75em "Trebuchet MS", Tahoma, Arial, sans-serif;
+    padding-left: 10px;
+    position: relative;
+    top: -.2em;
+}
+
+/******************************** SOCIAL MEDIA ************************************/
+
+.social {
+    float: right; /* icons float to right */
+    text-align: right; /* social text "Join the conversation" goes to right */
+}
+
+.social ul {
+    list-style-type: none; /* remove bullets from social icons */
+    padding-left: 0; /* move social icons to left */
+    margin-top: 0; /* space bettween "Join the conversation" and icons */
+}
+
+.social ul li {
+    display: inline-block; /* social icons are next to each other */
+}
+
+.social p {
+    font-size: .85em;
+    margin:10px 0 2px 0; /* space bettween "Join the conversation" and icons */
+}
+
+.social a i {
+    color: #a1a1a1; /* color of the social icons to grey */ 
+    font-size: 2.5em; /* how big are icons */
+    text-decoration: none; /* no underline on social icons */
+    
+}
+
+/******************************** NAVIGATION ************************************/
+
+nav {
+    clear: both; /* it will clear float to left and right */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
