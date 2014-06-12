@@ -9,6 +9,12 @@ body{
     font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
 }
 
+.container {
+    margin: 0 auto; /* left margin on auto */
+    width: 960px; /* ogranicenje texta na 960px */
+    
+} 
+
 h1, h2, h3, h4 ,h5 ,h6 {
     color: #ec8e08;
     font-family: colossalis, Impact, sans-serif; /* Impact and sans-serif are replacements for colossalis */
