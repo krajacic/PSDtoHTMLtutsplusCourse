@@ -19,6 +19,9 @@ h1, h2, h3, h4 ,h5 ,h6 {
     color: #ec8e08;
     font-family: colossalis, Impact, sans-serif; /* Impact and sans-serif are replacements for colossalis */
 }
+.clear {
+    clear: both;
+}
 
 /******************************** LOGO ************************************/
 
@@ -95,8 +98,188 @@ h1, h2, h3, h4 ,h5 ,h6 {
 /******************************** NAVIGATION ************************************/
 
 nav {
+    border: 1px solid #ccc;
     clear: both; /* it will clear float to left and right */
+    width: 958px;
+    height: 45px;
 }
+
+.main-nav {
+    float: left;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.main-nav li {
+    border-right: 1px solid #ccc; /* lines between menu (home|about us|...) */
+    float: left;
+    position: relative;
+    width: 100px;
+    height: 45px;
+    
+}
+
+.main-nav li a {
+    color: #a1a1a1;
+    font-size: 14px;
+    padding-top: 14px;
+    text-decoration: none;
+    text-align: center; /* text on center of button */
+    position: absolute; /* layer on layer menu (one on top of the other) */
+    width: 100px;
+    height: 31px;
+    transition: background-color .5s; 
+    -webkit-transition: background-color .5s; 
+    -moz-transition: background-color .5s; 
+}
+
+.main-nav li a:hover {
+    background-color: #eee;
+}
+
+.search {
+    color: #a1a1a1;
+    float: right;
+    margin: 10px 10px 0 0; /* margin: TOP RIGHT BOTTOM LEFT */
+}
+
+.search input {
+    border: 1px solid #a1a1a1;
+    background-color: #eee;
+    border-radius: 30px; /* corners are in radius */
+    padding-left: 8px;
+}
+
+.search a{
+    color: #a1a1a1;
+    text-decoration: none;
+}
+
+/******************************** CONTENT SLIDER ************************************/
+
+.slider {
+    background: #eee url('../img/slider-bg.jpg') no-repeat;
+    width: 960px;
+    height: 260px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider-prev, .slider-next {
+    color: #444;
+    font-size: 30px;
+    text-decoration: none;
+    opacity: .5;
+    position: absolute;
+    top: 115px;
+    transition: opacity .5s;
+}
+
+.slider-prev:hover, .slider-next:hover{ /*when we go with coursor to < or > they will be darker */
+    opacity: 1;
+}
+
+.slider-prev { /* slider from left side move 10px */
+    left: 10px;
+}
+
+.slider-next { /* slider from right side move 10px */
+    right: 10px;
+}
+
+.slide-image {
+    position: absolute; /* so we can put it where we want */
+    top: 15px;
+    left: 80px;
+}
+
+.slide-content {
+    width: 50%;
+    position: absolute;
+    right: 80px;
+    
+}
+
+.slider-title {
+    font: 55px "Trebuchet MS", Tahoma, Arial, sans-serif;
+    font-weight: bold;
+    line-height: 35px; /* you can change space between <br> */
+    margin-bottom: 5px;
+}
+
+.slider-title span {
+    color: #a1a1a1;
+    font-size: 30px;
+    font-weight: regular;
+}
+
+.slider-button {
+    background-color: #8bcf48;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block; /* rectangle on text */
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    text-decoration: none;
+    width: 280px;
+    height: 40px;
+    transition: backgound-color .5s;
+}
+
+.slider-button span {
+    font-size: 14px;
+}
+
+.slider-button:hover {
+    background-color: #9cdf59;
+}
+
+/******************************** 3-COLUMN SETUP ************************************/
+
+.column-one-third, .column-two-thirds {
+    margin-right: 24px;
+    padding: 0;
+    float: left;
+    
+}
+
+.column-one-third:last-child, .column-two-thirds:last-child {
+    margin-right:0;
+}
+
+.column-one-third {
+    width: 304px;
+}
+
+.column-two-thirds {
+    width: 623px;
+}
+
+.icons-ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
